@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="@dimen/item_browse_header_height">
+
+	<TextView
+		android:id="@+id/list_item_browse_header_text_view"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_alignParentRight="true"
+		android:gravity="bottom"
+		android:paddingBottom="@dimen/item_browse_list_text_keyText_padding_bottom"
+		android:paddingLeft="@dimen/item_browse_list_text_keyText_padding"
+		android:paddingRight="@dimen/item_browse_list_text_keyText_padding"
+		android:textColor="@android:color/holo_green_dark"
+		tools:text="Music"/>
+</LinearLayout>

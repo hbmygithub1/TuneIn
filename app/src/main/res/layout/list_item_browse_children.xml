@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="@dimen/item_browse_child_height">
+
+	<ImageView
+		android:id="@+id/item_browse_imageView"
+		android:layout_width="@dimen/item_image_width"
+		android:layout_height="match_parent"
+		android:layout_alignParentLeft="true"
+		android:padding="@dimen/item_image_padding"
+		tools:src="@mipmap/ic_launcher"
+		tools:visibility="gone"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_gravity="center"
+		android:layout_toRightOf="@+id/item_browse_imageView"
+		android:orientation="vertical"
+		android:paddingBottom="@dimen/item_browse_text_layout_padding"
+		android:paddingTop="@dimen/item_browse_text_layout_padding"
+		android:paddingLeft="@dimen/item_image_padding">
+
+		<TextView
+			android:id="@+id/item_browse_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:paddingTop="@dimen/item_browse_text_name_padding"
+			android:paddingRight="@dimen/item_browse_text_name_padding"
+			android:textColor="@android:color/black"
+			android:ellipsize="end"
+			android:singleLine="true"
+			tools:text="Text"/>
+
+		<TextView
+			android:id="@+id/item_browse_subText_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:paddingTop="@dimen/item_browse_subText_padding"
+			android:paddingRight="@dimen/item_browse_text_name_padding"
+			android:textColor="@android:color/black"
+			android:ellipsize="end"
+			android:singleLine="true"
+			android:textSize="@dimen/item_browse_subText_size"
+			tools:text="Sub-Text"
+			tools:visibility="gone"/>
+	</LinearLayout>
+
+</RelativeLayout>

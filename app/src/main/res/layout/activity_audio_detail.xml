@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent"
+			  android:orientation="vertical">
+
+	<ExpandableListView
+		android:id="@+id/audio_detail_expand_listview"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:groupIndicator="@null"/>
+
+	<TextView
+		android:id="@+id/audio_detail_list_empty_text_view"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center"
+		android:textColor="@android:color/black"
+		android:visibility="gone"/>
+
+</LinearLayout>

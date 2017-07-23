@@ -1,0 +1,15 @@
+<resources>
+	<dimen name="fab_margin">16dp</dimen>
+	<dimen name="item_browse_list_text_keyText_padding">16dp</dimen>
+	<dimen name="item_browse_list_text_keyText_padding_bottom">12dp</dimen>
+	<dimen name="toolbar_elevation">4dp</dimen>
+
+	<dimen name="item_image_width">100dp</dimen>
+	<dimen name="item_image_padding">10dp</dimen>
+	<dimen name="item_browse_text_layout_padding">5dp</dimen>
+	<dimen name="item_browse_text_name_padding">10dp</dimen>
+	<dimen name="item_browse_subText_padding">5dp</dimen>
+	<dimen name="item_browse_subText_size">12dp</dimen>
+	<dimen name="item_browse_child_height">80dp</dimen>
+	<dimen name="item_browse_header_height">55dp</dimen>
+</resources>
